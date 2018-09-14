@@ -43,10 +43,42 @@ and open the template in the editor.
         
         $Arreglo = [2,"hol",6];
         echo $Arreglo[2];
+        
+        //otra manera de hacer el arreglo
+        
+        
       
                  
         // put your code here El Punto concatena, el mas Suma, php identifica tipo de variable
         ?>
+            <h1>
+                <pre>
+                    <?php
+                            print_r($Arreglo);
+
+            ?>
+                </pre>
+                
+                
+            </h1>
+             <h1>
+                <pre>
+                    <?php
+                            var_dump($Arreglo);
+            echo "<br>";
+                 $Arreglo[] = "python" ; 
+                 var_dump($Arreglo);
+            ?>
+                      <?php
+              $usuario = array("nombre" => "juan",
+                   "apellido"=>"zabala","cedula"=>42651);
+                 echo "<h1".$usuario["nombre"]."</h1>";         
+            ?>
+
+                </pre>
+                
+                
+            </h1>    
             
         </h1>
         <p>
